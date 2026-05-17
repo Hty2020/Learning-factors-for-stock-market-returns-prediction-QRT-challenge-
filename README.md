@@ -3,7 +3,7 @@
 
 ## Overview
 
-**Challenge:** ENS Challenge Data 2022 (Qube Research & Technologies). Given three years of daily returns for 50 anonymous stocks, predict the next-day cross-sectional return vector. The submission is a pair $(A,\beta)$ where $A \in \mathbb{R}^{250 \times 10}$ is a Stiefel matrix ($A^\top A = I_{10}$) and $\beta \in \mathbb{R}^{10}$: the prediction for stock $i$ at date $t$ is $\hat{y}_{i,t} = [\mathbf{X}_\text{reshape}\,A\,\beta]_{(t,i)}$, with $\mathbf{X}_\text{reshape}$ containing the 250-day lag window for every (date, stock) pair. Performance is the mean cosine overlap between predicted and realised return vectors.
+**Challenge:** ENS Challenge Data 2022 (Qube Research & Technologies). Given three years of daily returns for 50 anonymous stocks, predict the next-day cross-sectional return vector. The submission is a pair $(A,\beta)$ where $A \in \mathbb{R}^{250 \times 10}$ is a Stiefel matrix ($A^\top A = I_{10}$) and $\beta \in \mathbb{R}^{10}$: the prediction for stock $i$ at date $t$ is $y_{i,t} = [\mathbf{X}A\beta]_{(t,i)}$, with $\mathbf{X}$ containing the 250-day lag window for every (date, stock) pair. Performance is the mean cosine overlap between predicted and realised return vectors.
 
 **Approaches explored:**
 
