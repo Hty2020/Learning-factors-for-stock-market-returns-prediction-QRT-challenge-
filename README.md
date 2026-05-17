@@ -1,5 +1,5 @@
 # Learning-factors-for-stock-market-returns-prediction-QRT-challenge-
-- The detailed description can be found on <https://challengedata.ens.fr/challenges/72>, and the training data can also be obtained there after registration.
+- A more detailed description can be found on <https://challengedata.ens.fr/challenges/72>, and the training data can also be obtained there after registration.
 
 ## Overview
 
